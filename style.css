@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #222;
+}
+.container{
+   max-width: 120rem;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 25rem;
+    height: 25rem;
+   
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 1.1rem;
+    padding: 1.2rem 2.4rem;
+    background-color: #444;
+    width: 60rem;
+    color: #fff;
+    box-shadow: 0 1.4rem 2.8rem rgba(0, 0, 0, 0.20), 0 1rem 1rem rgba(0, 0, 0, 0.22);
+}
+.cards{
+    height: 9rem;
+        text-align: center;
+        width: 10rem;
+        border-radius: 9px;
+        font-size: 1.6rem;
+        background-color: #222;
+        padding: 6px 12px;
+}
+.secondary{
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+.primary{
+    margin-top: 7px;
+}
+span{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.am-pm{
+    font-size: 1.6rem;
+    font-weight: bold;
+    
+}
